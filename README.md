@@ -34,7 +34,8 @@ Go to PermutationTest_Coexpression,ipynb and follow the instructions in that not
 #### Note: Data for this method comes from permutation_test_data folder. Make sure data for your puck is there.
 You can also examine how many beads will yield a significant result with this method using the PermutationTest_Coexpression_power_analysis.ipynb.
 
-#File Descriptions
+# File Descriptions
 
 1. NMFreg.ipynb: Initial analysis of slide-seq data. Assigns beads to clusters using non-negative matrix factorization. Saves normalized data and cluster assignments to .csv files to be used in other methods. 
+2. data_visualization folder: Contains .ipynb notebooks to visualize kidney puck data.
 

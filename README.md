@@ -12,6 +12,9 @@ The following are instructions for each of these functionalities.
 For each functionality, the pipeline starts with the following steps: 
 
 1. Run your data through NMFReg.ipynb
+2. Choose your method:
+
+#### Note: Data for the following methods will be stored in the folders specified in NMFReg.ipynb.
 
 ## 1. Visualizing Slide-Seq Data
 
@@ -23,15 +26,14 @@ Note: To create a new notebook, click the checkbox next to one of the other note
 ## 2. Single Gene Expression
 
 Go to PermutationTest_Expression.ipynb and follow the instructions in that notebook. 
+(The PermutationTest_Expression_kstest.ipynb runs the same analysis, but calculated p-values and effect size using the Kolmogorov–Smirnov test.)
 
-#### Note: Data for this method comes from permutation_test_data folder. Make sure data for your puck is there.
-You can also examine how many beads will yield a significant result with this method using the PermutationTest_Expression_power_analysis.ipynb.
+You can also examine how many beads will yield a significant result with this method using the PermutationTest_Expression_power_analysis.ipynb. (This not implemented for the Kolmogorov–Smirnov test method.)
 
 ## 3. Two Gene Expression Correlation
 
-Go to PermutationTest_Coexpression,ipynb and follow the instructions in that notebook.
+Go to PermutationTest_Coexpression.ipynb and follow the instructions in that notebook.
 
-#### Note: Data for this method comes from permutation_test_data folder. Make sure data for your puck is there.
 You can also examine how many beads will yield a significant result with this method using the PermutationTest_Coexpression_power_analysis.ipynb.
 
 # File Descriptions

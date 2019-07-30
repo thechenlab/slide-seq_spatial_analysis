@@ -38,4 +38,6 @@ You can also examine how many beads will yield a significant result with this me
 
 1. NMFreg.ipynb: Initial analysis of slide-seq data. Assigns beads to clusters using non-negative matrix factorization. Saves normalized data and cluster assignments to .csv files to be used in other methods. 
 2. data_visualization folder: Contains .ipynb notebooks to visualize kidney puck data.
+3. PermutationTest_Expression.ipynb: Method to test if a gene is being expressed non-randomly within a given region or cell type.
+4. PermutationTest_Expression_kstest.ipynb: Method to test if a gene is being expressed non-randomly within a given region or cell type. This is the same as PermutationTest_Expression.ipynb except that p-value and effect size are calculated using a Kolmogorov–Smirnov test.
 

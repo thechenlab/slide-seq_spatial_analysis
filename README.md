@@ -1,6 +1,6 @@
 # slide-seq_spatial_analysis
 Pipeline for spatial analysis of slide-seq data
-Edited: 7/30/19<br>
+Edited: 8/02/19<br>
 
 There are three functionalities contained in these notebooks:
 1. Visualize Slide-seq data in a notebook.
@@ -42,4 +42,6 @@ You can also examine how many beads will yield a significant result with this me
 2. data_visualization folder: Contains .ipynb notebooks to visualize kidney puck data.
 3. PermutationTest_Expression.ipynb: Method to test if a gene is being expressed non-randomly within a given region or cell type.
 4. PermutationTest_Expression_kstest.ipynb: Method to test if a gene is being expressed non-randomly within a given region or cell type. This is the same as PermutationTest_Expression.ipynb except that p-value and effect size are calculated using a Kolmogorov–Smirnov test.
-
+5. PermutationTest_Expression_power_analysis.ipynb: Analysis to test how many beads the gene should be expressed in to yield a significant result. (Not implemented for Kolmogorov-Smirnov test)
+6. PermutationTest_CoExpression.ipynb: Method to test if the expression of two genes is correlated within a given region or cell type.
+7. PermutationTest_CoExpression_power_analysis.ipynb: Analysis to test how much noise can be added to the puck while still yielding a significant result and an effect size that indicates correlation. 

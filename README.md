@@ -9,10 +9,22 @@ There are three functionalities contained in these notebooks:
 
 The following are instructions for each of these functionalities. 
 
-For each functionality, the pipeline starts with the following steps: 
+## Instructions:
 
-1. Run your data through NMFReg.ipynb
-2. Choose your method:
+1. Log into the Broad cluster
+2. Type the following commands into the command line (followed by enter/return):
+    1. use UGER
+    2. ish -l h_vmem=xxxG 
+    (Here, let xxx be the number of gigs you need. For NMFReg, you will need at least 64G. This step may take a while depending on     how busy the cluster is.)
+    3. use Anaconda3
+    4. cd /broad/thechenlab/breanna
+    5. jupyter notebook
+
+For each functionality, if you have a new puck, the pipeline starts running your data in the notebook: 
+
+    NMFReg.ipynb (Requires about 64G in the cluster)
+    
+Next, or if you don't need to analyze a new puck, you can choose from the following pipeline:
 
 #### Note: Data for the following methods will be stored in the folders specified in NMFReg.ipynb.
 
@@ -21,7 +33,7 @@ For each functionality, the pipeline starts with the following steps:
 1. Go into the data_visualization folder and select the notebook for the puck you want (or, change the filepath and puck number to reflect your own puck. 
 2. Run each chunk of the code to get to the interactive plot. Directions for how to use the interactive plot can be found in the notebook. 
 
-Note: To create a new notebook, click the checkbox next to one of the other notebooks and select "duplicate". In the copied notebook, change the name of the notebook and the pkn variable to your desired puck. 
+Note: To create a new notebook, click the checkbox next to one of the other notebooks and select "duplicate". In the copied notebook, change the name of the notebook and the "pkn" variable to your desired puck. 
 
 ## 2. Single Gene Expression
 
